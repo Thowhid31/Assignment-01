@@ -132,3 +132,11 @@ img{
 .right-sided-content3{
     margin-left: 80px;
 }
+#mess-app-port{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.mess-app-span{
+    color: tomato;
+}
