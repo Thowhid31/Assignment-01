@@ -149,7 +149,7 @@ img{
     margin-top: 40px;
     margin-bottom: 10px;
     justify-content: space-around;
-    background-image: url(images/shapes/shape-6.png);
+    background-image: url(images/shapes/shape-5.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 300px;
@@ -173,9 +173,9 @@ img{
     margin-top: 40px;
     margin-bottom: 10px;
     justify-content: space-around;
-    background-image: url(images/shapes/shape-7.png);
+    background-image: url(images/shapes/shape-4.png);
     background-repeat: no-repeat;
-    background-size: 100px;
+    background-size: 300px;
     background-position: right;
 }
 .visit-site-button{
