@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+}
+.parent-dive1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 420px;
+}
+.span-for-first-section{
+    color: navy;
+}
+.explore-more-button{
+    color: white;
+    font-size: 16px;
+    padding: 8px 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-image: linear-gradient(navy, blue);
+}
+.explore-more-button:hover{
+    background-image: linear-gradient(blue, navy);
+    cursor: pointer;
+    color: yellow;
+}
+.right-sided-content{
+    width: auto;
+    margin: 10px;
+}
+.sec-section-heading{
+    font-style: bold;
+    text-align: center;
+    margin-top: 40px;
+    color: navy;
+    margin-bottom: 0%;
+}
+.section-2-span-color{
+    color: blue;
+}
+.three-chirt{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.mission-chart1{
+    text-align: justify;
+    margin-top: 40px;
+    width: 900px;
+    border-style: 0px solid;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.chirt-1-image{
+    width: 100%;
+    align-content: center;
+}
+.mission-chart2{
+    text-align: justify;
+    margin-top: 40px;
+    width: 900px;
+    border-style: 0px solid;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.chirt-2-image{
+    width: 100%;
+    align-content: center;
+}
+.mission-chart3{
+    text-align: justify;
+    margin-top: 40px;
+    width: 900px;
+    border-style: 0px solid;
+    background-color: rgb(188, 216, 216);
+    border-radius: 10px;
+    padding: 15px;
+}
+.chirt-3-image{
+    width: 100%;
+    align-content: center;
+}
+.third--section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    justify-content: space-around;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+}
+.right-sided-content2{
+    margin-left: 40px;
+}
