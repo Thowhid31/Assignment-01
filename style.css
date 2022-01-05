@@ -12,6 +12,12 @@ h1{
     border-image-slice: 1;
     padding: 10px;
 }
+.first-paragraph{
+    margin-bottom: 20px;
+}
+.scroll-down{
+    font-style: italic;
+}
 .parent-dive1{
     display: flex;
     width: 90%;
@@ -25,11 +31,13 @@ img{
 }
 .explore-more-button{
     color: white;
+    text-decoration: none;
     font-size: 16px;
     padding: 8px 36px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: none;
+    border-radius: 8px;
     background-image: linear-gradient(navy, blue);
 }
 .explore-more-button:hover{
@@ -100,6 +108,24 @@ img{
     width: 100%;
     align-content: center;
 }
+
+.enrolle-button{
+    color: white;
+    font-size: 16px;
+    padding: 8px 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(navy, blue);
+}
+
+.enrolle-button:hover{
+    background-image: linear-gradient(blue, navy);
+    cursor: pointer;
+    color: yellow;
+}
+
 .third--section{
     display: flex;
     width: 80%;
@@ -139,4 +165,66 @@ img{
 }
 .mess-app-span{
     color: tomato;
+}
+.fifth-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right;
+}
+.visit-site-button{
+    color: white;
+    font-size: 16px;
+    padding: 8px 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(navy, blue);
+}
+.visit-site-button:hover{
+    background-image: linear-gradient(blue, navy);
+    cursor: pointer;
+    color: yellow;
+}
+.mess-mana-app{
+    width: 50%;
+}
+.right-sided-content4{
+    margin-left: 0;
+}
+.mess-app-button{
+    color: white;
+    font-size: 16px;
+    padding: 8px 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(navy, blue);
+}
+.mess-app-button:hover{
+    background-image: linear-gradient(blue, navy);
+    cursor: pointer;
+    color: yellow;
+}
+.Footer{
+    width: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.footer-span{
+    color: tomato;
+}
+.footer-small{
+    color: rgb(167, 167, 167);
 }
