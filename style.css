@@ -6,6 +6,12 @@ body{
 h1{
     font-size: 40px;
 }
+#to-add-slice{
+    border-left: 5px solid black;
+    border-image: linear-gradient(rgb(255, 0, 0), white);
+    border-image-slice: 1;
+    padding: 10px;
+}
 .parent-dive1{
     display: flex;
     width: 90%;
@@ -99,6 +105,7 @@ img{
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: 40px;
     padding: 15px;
     justify-content: space-around;
     background-image: url(images/shapes/shape-1.png);
@@ -107,5 +114,21 @@ img{
     background-size: 300px;
 }
 .right-sided-content2{
-    margin-left: 40px;
+    margin-left: 80px;
+}
+.fourth--section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+
+.right-sided-content3{
+    margin-left: 80px;
 }
